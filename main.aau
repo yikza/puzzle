@@ -1,0 +1,20 @@
+import win.ui;
+/*DSG{{*/
+mainForm = ..win.form(text="Æ´ˆD";right=823;bottom=530;border="none")
+mainForm.add()
+/*}}*/
+
+import web.layout;
+import web.layout.behavior.windowCommand;
+import web.layout.behavior.main.puzzle;
+import web.layout.behavior.main.button;
+ 
+wbLayout = web.layout(mainForm)
+wbLayout.go("/res/main.html") ;
+wbLayout.wait();
+web.layout.behavior.main.puzzle.init($"/res/styles/images/t.jpg");
+import win.ui.shadow;
+win.ui.shadow(mainForm);
+
+mainForm.show();
+win.loopMessage();

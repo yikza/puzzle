@@ -1,0 +1,28 @@
+﻿<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="styles/base.css" />
+  <style type="text/css">  
+  #intro label { display:block;text-align:center;line-height:24px;}
+  #intro label span { color:#333;text-decoration:underline;cursor:pointer;behavior:~ url(about.link);}
+  #intro label span:hover {color:red;}
+  #ptitle {font-weight:700;font-size:16px;color:#333;padding:20px 0 10px 0;}
+  #finish {color:red;padding:5px 0;font-size:16px;}
+  </style>
+<body>
+    <div id="header"> 
+          <div class="titlebox">
+			<a command="window-close" onclick="closeWindow()">r</a>
+		  </div> 
+		  <div class="title-bar" command="window-caption"> <span class=title>結束</span></div>
+    </div> 
+    <div id="container"> 
+		  <div id="intro">
+			<label id="ptitle">Puzzle</label>
+			<label id="finish">恭喜，你已經完成了遊戲！</label>
+			<label>powered by <span id="linkAardio" link="http://bbs.aau.cn">aardio</span></label>
+			<label>link：<span id="linkMe" link="http://weibo.com/iamgillianchung">http://weibo.com/iamgillianchung</span></label>
+		  </div>
+    </div>
+    
+</body>

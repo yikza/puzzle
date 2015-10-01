@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="gb2312"?>
+<project ver="8" name="puzzle" libEmbed="true" icon="\puzzle.ico" CompanyName="hook" FileDescription="puzzle" LegalCopyright="Copyright (C) hook 2015" ProductName="puzzle" InternalName="puzzle" FileVersion="0.0.0.25" ProductVersion="0.0.0.25" publishDir="/Publish/" ui="win" output="puzzle.exe">
+	<file name="main.aau" path="main.aau"/>
+	<folder name="res" path="res" comment="Ŀ¼" embed="true">
+		<file name="main.html" path="res\main.html" comment="res\main.html"/>
+		<file name="finish.html" path="res\finish.html" comment="res\finish.html"/>
+		<file name="about.html" path="res\about.html" comment="res\about.html"/>
+		<folder name="styles" path="res\styles" comment="res\styles" embed="true">
+			<file name="puzzle.css" path="res\styles\puzzle.css" comment="res\styles\puzzle.css"/>
+			<file name="base.css" path="res\styles\base.css" comment="res\styles\base.css"/>
+			<folder name="images" path="res\styles\images" comment="res\styles\images" embed="true">
+				<file name="t.jpg" path="res\styles\images\t.jpg" comment="res\styles\images\t.jpg"/>
+				<file name="i.png" path="res\styles\images\i.png" comment="res\styles\images\i.png"/>
+			</folder>
+		</folder>
+	</folder>
+	<folder name="form" path="form" comment="Ŀ¼" embed="true">
+		<file name="finish.aau" path="form\finish.aau" comment="form\finish.aau"/>
+		<file name="about.aau" path="form\about.aau" comment="form\about.aau"/>
+	</folder>
+</project>

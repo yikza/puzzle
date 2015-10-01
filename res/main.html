@@ -1,0 +1,40 @@
+﻿<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="styles/base.css" />
+  <link rel="stylesheet" href="styles/puzzle.css"/>
+</head> 
+<body>
+    <div id="header"> 
+          <div class="titlebox">
+			<a id="window-min" command="window-min" onclick="minWindow()">0</a><a id="window-close" command="window-close" onclick="closeWindow()">r</a>
+		  </div> 
+		  <div class="title-bar" command="window-caption"> <span class=title>拼圖</span></div>
+    </div> 
+    
+    <div id="container">
+		<div class="g-bd2 f-cb">
+			<div class="g-mn2">
+				<div id="pageLeft" class="g-mn2c">
+					<div id="puzzleWrap">
+						<div id="puzzle"></div>
+					</div>
+				</div>
+			</div>
+			<div id="pageRight" class="g-sd2">
+				<div id="thumbDiv">
+					<img id="thumbImg" src="" />
+				</div>
+				<button id="choosePicBtn">切換圖片</button>
+				
+				<div id="yourScore">
+					<label>步數：<span id="stepCnt">0</span></label>
+					<label>用時：<span id="timeCnt">0</span></label>
+				</div>
+				
+				<button id="aboutBtn"> </button>
+			</div>
+		</div>
+    </div>
+    
+</body>
