@@ -12,9 +12,14 @@ import web.layout.behavior.main.button;
 wbLayout = web.layout(mainForm)
 wbLayout.go("/res/main.html") ;
 wbLayout.wait();
-web.layout.behavior.main.puzzle.init($"/res/styles/images/t.jpg");
+web.layout.behavior.main.puzzle.init("/res/styles/images/t.jpg");
 import win.ui.shadow;
 win.ui.shadow(mainForm);
 
+mainForm.onClose = function(hwnd,message,wParam,lParam){
+    import fsys;
+	fsys.delete(fsys.getTempDir()+"~puzzle*.jpg");
+}
+
 mainForm.show();
-win.loopMessage();
+return win.loopMessage();
