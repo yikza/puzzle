@@ -5,7 +5,7 @@ A simple puzzle game. Enjoy !
 
 ## INSTALLATION
 
-Your can complied use aardio , Or just download the exe at https://github.com/hook747/puzzle/blob/master/Publish/puzzle.exe?raw=true
+Your can complied use aardio 
 
 ## DEMO
 
