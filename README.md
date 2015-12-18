@@ -1,12 +1,10 @@
-![Logo](https://raw.githubusercontent.com/hook747/puzzle/master/resource/logo.png)
-
-## PUZZLE
+## puzzle
 A simple puzzle game. Enjoy !
 
-## INSTALLATION
+## installtion
 
-Your can complied use aardio , Or just download the exe at https://github.com/hook747/puzzle/blob/master/Publish/puzzles.exe?raw=true
+Your can complied use aardio , Or just download the exe at https://github.com/xhook7/puzzle/blob/master/Publish/puzzles.exe?raw=true
 
-## DEMO
+## demo
 
 ![Demo](https://github.com/hook747/puzzle/raw/master/resource/demo.gif)
