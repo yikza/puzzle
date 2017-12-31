@@ -1,8 +1,10 @@
 ## puzzle
 A simple puzzle game. Enjoy !
 
-## installtion
+## build
+Your can complied use aardio , Or just download the exe at 
 
-Your can complied use aardio , Or just download the exe at https://github.com/xhook7/puzzle/blob/master/Publish/puzzles.exe?raw=true
+## demo
+![Demo](https://github.com/hikdo/puzzle/raw/master/dist/demo.gif)
 
 
